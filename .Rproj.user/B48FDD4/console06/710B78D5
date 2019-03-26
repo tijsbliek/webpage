@@ -1,0 +1,351 @@
+]0;~/Desktop/webpage[?1034hvpn-staff-146-50-70-33:webpage tijsbliek$ [Kvpn-staff-146-50-70-33:webpage tijsbliek$ git init
+Initialized empty Git repository in /Users/tijsbliek/Desktop/webpage/.git/
+]0;~/Desktop/webpagevpn-staff-146-50-70-33:webpage tijsbliek$ git remote add origin https://github.com/tijsbliek/webpage.git
+]0;~/Desktop/webpagevpn-staff-146-50-70-33:webpage tijsbliek$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/tijsbliek/webpage.git'
+]0;~/Desktop/webpagevpn-staff-146-50-70-33:webpage tijsbliek$ git remote add origin https://github.com/tijsbliek/webpage.git
+fatal: remote origin already exists.
+]0;~/Desktop/webpagevpn-staff-146-50-70-33:webpage tijsbliek$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/tijsbliek/webpage.git'
+]0;~/Desktop/webpagevpn-staff-146-50-70-33:webpage tijsbliek$ git push -u origin masterremote add origin https://github.com/tijsbliek/webpage.git
+fatal: remote origin already exists.
+]0;~/Desktop/webpagevpn-staff-146-50-70-33:webpage tijsbliek$ git remote add origin https://github.com/tijsbliek/webpage.git
+fatal: remote origin already exists.
+]0;~/Desktop/webpagevpn-staff-146-50-70-33:webpage tijsbliek$ git remote add origin https://github.com/tijsbliek/webpage.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[37Ppush -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/tijsbliek/webpage.git'
+]0;~/Desktop/webpagevpn-staff-146-50-70-33:webpage tijsbliek$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rproj.user/[m
+	[31mconfig.toml[m
+	[31mconfig/[m
+	[31mcontent/[m
+	[31mindex.Rmd[m
+	[31mstatic/[m
+	[31mthemes/[m
+	[31mwebpage.Rproj[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;~/Desktop/webpagevpn-staff-146-50-70-33:webpage tijsbliek$ git add .
+]0;~/Desktop/webpagevpn-staff-146-50-70-33:webpage tijsbliek$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	[32mnew file:   .Rproj.user/B48FDD4/console06/710B78D5[m
+	[32mnew file:   .Rproj.user/B48FDD4/console06/710B78D5.env[m
+	[32mnew file:   .Rproj.user/B48FDD4/console06/INDEX001[m
+	[32mnew file:   .Rproj.user/B48FDD4/sources/prop/994ECCA6[m
+	[32mnew file:   .Rproj.user/B48FDD4/sources/prop/INDEX[m
+	[32mnew file:   .Rproj.user/B48FDD4/sources/s-8F0947AA/8F010A08[m
+	[32mnew file:   .Rproj.user/B48FDD4/sources/s-8F0947AA/8F010A08-contents[m
+	[32mnew file:   .Rproj.user/B48FDD4/sources/s-8F0947AA/lock_file[m
+	[32mnew file:   .Rproj.user/shared/notebooks/patch-chunk-names[m
+	[32mnew file:   config.toml[m
+	[32mnew file:   config/_default/languages.toml[m
+	[32mnew file:   config/_default/menus.toml[m
+	[32mnew file:   config/_default/params.toml[m
+	[32mnew file:   content/author/admin/_index.md[m
+	[32mnew file:   content/author/admin/avatar.jpg[m
+	[32mnew file:   content/home/about.md[m
+	[32mnew file:   content/home/accomplishments.md[m
+	[32mnew file:   content/home/contact.md[m
+	[32mnew file:   content/home/demo.md[m
+	[32mnew file:   content/home/experience.md[m
+	[32mnew file:   content/home/featured.md[m
+	[32mnew file:   content/home/gallery/gallery/theme-1950s.png[m
+	[32mnew file:   content/home/gallery/gallery/theme-apogee.png[m
+	[32mnew file:   content/home/gallery/gallery/theme-coffee-playfair.png[m
+	[32mnew file:   content/home/gallery/gallery/theme-cupcake.png[m
+	[32mnew file:   content/home/gallery/gallery/theme-dark.png[m
+	[32mnew file:   content/home/gallery/gallery/theme-default.png[m
+	[32mnew file:   content/home/gallery/gallery/theme-forest.png[m
+	[32mnew file:   content/home/gallery/gallery/theme-ocean.png[m
+	[32mnew file:   content/home/gallery/index.md[m
+	[32mnew file:   content/home/hero.md[m
+	[32mnew file:   content/home/index.md[m
+	[32mnew file:   content/home/people.md[m
+	[32mnew file:   content/home/posts.md[m
+	[32mnew file:   content/home/projects.md[m
+	[32mnew file:   content/home/publications.md[m
+	[32mnew file:   content/home/skills.md[m
+	[32mnew file:   content/home/slider.md[m
+	[32mnew file:   content/home/tags.md[m
+	[32mnew file:   content/home/talks.md[m
+	[32mnew file:   content/post/2015-07-23-r-rmarkdown.Rmd[m
+	[32mnew file:   content/post/_index.md[m
+	[32mnew file:   content/post/getting-started/featured.jpg[m
+	[32mnew file:   content/post/getting-started/gallery/theme-1950s.png[m
+	[32mnew file:   content/post/getting-started/gallery/theme-apogee.png[m
+	[32mnew file:   content/post/getting-started/gallery/theme-coffee-playfair.png[m
+	[32mnew file:   content/post/getting-started/gallery/theme-cupcake.png[m
+	[32mnew file:   content/post/getting-started/gallery/theme-dark.png[m
+	[32mnew file:   content/post/getting-started/gallery/theme-default.png[m
+	[32mnew file:   content/post/getting-started/gallery/theme-forest.png[m
+	[32mnew file:   content/post/getting-started/gallery/theme-ocean.png[m
+	[32mnew file:   content/post/getting-started/index.md[m
+	[32mnew file:   content/post/jupyter/academic.ipynb[m
+	[32mnew file:   content/post/jupyter/academic_0_0.png[m
+	[32mnew file:   content/post/jupyter/featured.png[m
+	[32mnew file:   content/post/jupyter/index.md[m
+	[32mnew file:   content/privacy.md[m
+	[32mnew file:   content/project/external-project/featured.jpg[m
+	[32mnew file:   content/project/external-project/index.md[m
+	[32mnew file:   content/project/internal-project/featured.jpg[m
+	[32mnew file:   content/project/internal-project/index.md[m
+	[32mnew file:   content/publication/_index.md[m
+	[32mnew file:   content/publication/clothing-search/cite.bib[m
+	[32mnew file:   content/publication/clothing-search/featured.jpg[m
+	[32mnew file:   content/publication/clothing-search/index.md[m
+	[32mnew file:   content/publication/person-re-id/featured.jpg[m
+	[32mnew file:   content/publication/person-re-id/index.md[m
+	[32mnew file:   content/slides/example-slides.md[m
+	[32mnew file:   content/talk/_index.md[m
+	[32mnew file:   content/talk/example/featured.jpg[m
+	[32mnew file:   content/talk/example/index.md[m
+	[32mnew file:   content/tutorial/_index.md[m
+	[32mnew file:   content/tutorial/example.md[m
+	[32mnew file:   index.Rmd[m
+	[32mnew file:   static/img/boards.jpg[m
+	[32mnew file:   static/img/headers/bubbles-wide.jpg[m
+	[32mnew file:   static/img/hero-academic.png[m
+	[32mnew file:   themes/hugo-academic/.editorconfig[m
+	[32mnew file:   themes/hugo-academic/.github/PULL_REQUEST_TEMPLATE.md[m
+	[32mnew file:   themes/hugo-academic/.gitignore[m
+	[32mnew file:   themes/hugo-academic/LICENSE.md[m
+	[32mnew file:   themes/hugo-academic/README.md[m
+	[32mnew file:   themes/hugo-academic/academic.png[m
+	[32mnew file:   themes/hugo-academic/archetypes/default.md[m
+	[32mnew file:   themes/hugo-academic/archetypes/docs.md[m
+	[32mnew file:   themes/hugo-academic/archetypes/home.md[m
+	[32mnew file:   themes/hugo-academic/archetypes/post/index.md[m
+	[32mnew file:   themes/hugo-academic/archetypes/project/index.md[m
+	[32mnew file:   themes/hugo-academic/archetypes/publication/index.md[m
+	[32mnew file:   themes/hugo-academic/archetypes/slides.md[m
+	[32mnew file:   themes/hugo-academic/archetypes/talk/index.md[m
+	[32mnew file:   themes/hugo-academic/assets/css/reveal.css[m
+	[32mnew file:   themes/hugo-academic/assets/css/reveal_custom.css[m
+	[32mnew file:   themes/hugo-academic/assets/js/academic-search.js[m
+	[32mnew file:   themes/hugo-academic/assets/js/academic.js[m
+	[32mnew file:   themes/hugo-academic/assets/js/algolia-search.js[m
+	[32mnew file:   themes/hugo-academic/assets/js/mathjax-config.js[m
+	[32mnew file:   themes/hugo-academic/data/academic.toml[m
+	[32mnew file:   themes/hugo-academic/data/assets.toml[m
+	[32mnew file:   themes/hugo-academic/data/fonts/classic.toml[m
+	[32mnew file:   themes/hugo-academic/data/fonts/default.toml[m
+	[32mnew file:   themes/hugo-academic/data/fonts/playfair.toml[m
+	[32mnew file:   themes/hugo-academic/data/i18n/languages.yaml[m
+	[32mnew file:   themes/hugo-academic/data/themes/1950s.toml[m
+	[32mnew file:   themes/hugo-academic/data/themes/apogee.toml[m
+	[32mnew file:   themes/hugo-academic/data/themes/coffee.toml[m
+	[32mnew file:   themes/hugo-academic/data/themes/cupcake.toml[m
+	[32mnew file:   themes/hugo-academic/data/themes/dark.toml[m
+	[32mnew file:   themes/hugo-academic/data/themes/default.toml[m
+	[32mnew file:   themes/hugo-academic/data/themes/forest.toml[m
+	[32mnew file:   themes/hugo-academic/data/themes/ocean.toml[m
+	[32mnew file:   themes/hugo-academic/demo.sh[m
+	[32mnew file:   themes/hugo-academic/exampleSite/config/_default/config.toml[m
+	[32mnew file:   themes/hugo-academic/exampleSite/config/_default/languages.toml[m
+	[32mnew file:   themes/hugo-academic/exampleSite/config/_default/menus.toml[m
+	[32mnew file:   themes/hugo-academic/exampleSite/config/_default/params.toml[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/author/admin/_index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/author/admin/avatar.jpg[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/about.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/accomplishments.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/contact.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/demo.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/experience.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/featured.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/gallery/gallery/theme-1950s.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/gallery/gallery/theme-apogee.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/gallery/gallery/theme-coffee-playfair.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/gallery/gallery/theme-cupcake.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/gallery/gallery/theme-dark.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/gallery/gallery/theme-default.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/gallery/gallery/theme-forest.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/gallery/gallery/theme-ocean.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/gallery/index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/hero.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/people.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/posts.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/projects.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/publications.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/skills.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/slider.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/tags.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/talks.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/post/_index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/post/getting-started/featured.jpg[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/post/getting-started/gallery/theme-1950s.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/post/getting-started/gallery/theme-apogee.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/post/getting-started/gallery/theme-coffee-playfair.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/post/getting-started/gallery/theme-cupcake.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/post/getting-started/gallery/theme-dark.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/post/getting-started/gallery/theme-default.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/post/getting-started/gallery/theme-forest.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/post/getting-started/gallery/theme-ocean.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/post/getting-started/index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/post/jupyter/academic.ipynb[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/post/jupyter/academic_0_0.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/post/jupyter/featured.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/post/jupyter/index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/privacy.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/project/external-project/featured.jpg[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/project/external-project/index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/project/internal-project/featured.jpg[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/project/internal-project/index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/publication/_index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/publication/clothing-search/cite.bib[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/publication/clothing-search/featured.jpg[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/publication/clothing-search/index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/publication/person-re-id/featured.jpg[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/publication/person-re-id/index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/slides/example-slides.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/talk/_index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/talk/example/featured.jpg[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/talk/example/index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/tutorial/_index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/tutorial/example.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/static/img/boards.jpg[m
+	[32mnew file:   themes/hugo-academic/exampleSite/static/img/headers/bubbles-wide.jpg[m
+	[32mnew file:   themes/hugo-academic/exampleSite/static/img/hero-academic.png[m
+	[32mnew file:   themes/hugo-academic/i18n/ca.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/de.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/el.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/en.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/es.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/eu.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/fr.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/hu.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/id.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/it.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/ja.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/ko.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/nl.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/pl.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/pt.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/ru.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/tr.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/vi.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/zh.yaml[m
+	[32mnew file:   themes/hugo-academic/images/screenshot.png[m
+	[32mnew file:   themes/hugo-academic/images/theme-1950s.png[m
+	[32mnew file:   themes/hugo-academic/images/theme-apogee.png[m
+	[32mnew file:   themes/hugo-academic/images/theme-coffee-playfair.png[m
+	[32mnew file:   themes/hugo-academic/images/theme-cupcake.png[m
+	[32mnew file:   themes/hugo-academic/images/theme-dark.png[m
+	[32mnew file:   themes/hugo-academic/images/theme-default.png[m
+	[32mnew file:   themes/hugo-academic/images/theme-forest.png[m
+	[32mnew file:   themes/hugo-academic/images/theme-ocean.png[m
+	[32mnew file:   themes/hugo-academic/images/theme-spacer.png[m
+	[32mnew file:   themes/hugo-academic/images/tn.png[m
+	[32mnew file:   themes/hugo-academic/layouts/404.html[m
+	[32mnew file:   themes/hugo-academic/layouts/_default/list.html[m
+	[32mnew file:   themes/hugo-academic/layouts/_default/single.html[m
+	[32mnew file:   themes/hugo-academic/layouts/author/list.html[m
+	[32mnew file:   themes/hugo-academic/layouts/author/terms.html[m
+	[32mnew file:   themes/hugo-academic/layouts/docs/list.html[m
+	[32mnew file:   themes/hugo-academic/layouts/docs/single.html[m
+	[32mnew file:   themes/hugo-academic/layouts/index.css[m
+	[32mnew file:   themes/hugo-academic/layouts/index.html[m
+	[32mnew file:   themes/hugo-academic/layouts/index.json[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/comments.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/cookie_consent.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/css/academic.css[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/css/parse_theme.css[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/docs_layout.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/docs_sidebar.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/docs_toc_foot.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/footer.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/footer_container.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/footer_section.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/head_custom.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/header.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/li_card.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/li_citation.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/li_compact.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/li_list.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/navbar.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/page_author.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/page_header.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/page_links.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/page_links_div.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/page_metadata.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/page_metadata_authors.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/pagination.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/project_li_card.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/project_li_list.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/project_li_showcase.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/pub_types.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/search.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/section_pager.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/share.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/slides.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/tags.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widget_page.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/about.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/accomplishments.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/blank.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/contact.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/experience.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/featured.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/featurette.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/hero.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/pages.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/people.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/portfolio.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/slider.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/tag_cloud.html[m
+	[32mnew file:   themes/hugo-academic/layouts/project/single.html[m
+	[32mnew file:   themes/hugo-academic/layouts/publication/single.html[m
+	[32mnew file:   themes/hugo-academic/layouts/rss.xml[m
+	[32mnew file:   themes/hugo-academic/layouts/section/post.html[m
+	[32mnew file:   themes/hugo-academic/layouts/section/publication.html[m
+	[32mnew file:   themes/hugo-academic/layouts/section/talk.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/alert.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/figure.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/fragment.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/gallery.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/gdocs.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/hl.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/list_categories.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/list_tags.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/slide.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/speaker_note.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/staticref.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/toc.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/video.html[m
+	[32mnew file:   themes/hugo-academic/layouts/sitemap.xml[m
+	[32mnew file:   themes/hugo-academic/layouts/slides/baseof.html[m
+	[32mnew file:   themes/hugo-academic/layouts/slides/list.html[m
+	[32mnew file:   themes/hugo-academic/layouts/slides/single.html[m
+	[32mnew file:   themes/hugo-academic/layouts/talk/single.html[m
+	[32mnew file:   themes/hugo-academic/layouts/widget_page/single.html[m
+	[32mnew file:   themes/hugo-academic/netlify.toml[m
+	[32mnew file:   themes/hugo-academic/static/img/icon-192.png[m
+	[32mnew file:   themes/hugo-academic/static/img/icon.png[m
+	[32mnew file:   themes/hugo-academic/static/js/vendor/reveal.js/plugin/notes/notes.html[m
+	[32mnew file:   themes/hugo-academic/static/js/vendor/reveal.js/plugin/notes/notes.js[m
+	[32mnew file:   themes/hugo-academic/static/site.webmanifest[m
+	[32mnew file:   themes/hugo-academic/theme.toml[m
+	[32mnew file:   webpage.Rproj[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/B48FDD4/console06/710B78D5[m
+
+]0;~/Desktop/webpagevpn-staff-146-50-70-33:webpage tijsbliek$ git add .
